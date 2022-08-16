@@ -20,6 +20,42 @@
     color:white;
     margin-left: 8px;
 }
+/* nav bar style start */
+nav{
+    color: #3A3A3A;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#nav-text{
+    color: #3A3A3A;
+    margin-left: 9%;
+    font-size: 16px;
+}
+.nav-element{
+    
+    margin-right: 9%;
+    font-size: 16px;
+
+}
+.nav-element ul{
+    display: flex;
+    
+    
+}
+.nav-element ul li{
+    
+    list-style-type: none;
+    padding: 10px;
+    margin-left: 10px;
+}
+.nav-element ul li a{
+    color: #3A3A3A;
+    text-decoration: none;
+}
+
+/* nav bar style end */
 
 /* top section */
 .influencer-info{
@@ -61,8 +97,8 @@
     grid-column-gap: 60px;
     align-items: center;
     justify-items: center;
-    margin: 10%;
-    background: #AAAAAA;
+    margin: 0 8% 0 4%;
+    background: #f9f4f4;
 }
 .company-logs img{
     Width:84px;
@@ -86,7 +122,7 @@
     grid-row-gap: 30px;
     justify-items: center;
     align-items: center;
-    margin: 0 10% 0 10%;
+    margin: 0 4% 0 10%;
     margin-left: 50px;
 
 }
@@ -103,10 +139,13 @@
     color: gold;
 
 }
+.fa-star.nofill {
+    color: wheat;
+}
 .see-more{
     position: absolute;
     margin-top: 50px;
-    right: 131px;
+    right: 50px;
     text-decoration: none;
     color: #E02C6D;
 }
@@ -132,18 +171,15 @@ footer{
     background-color: #0A0826;
     color: #FFFFFF;
 }
-/* .fa-brands{
-    padding: 5px;
-    font-size: 20px;
-
-} */
 button{
     
     background-color: #0A0826;
     font-size: 20px;
+    
     border-width: 0;
 }
 button .fa-brands{
     color: #FFFFFF;
+    padding-left: 10px;
 
 }
