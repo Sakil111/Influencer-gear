@@ -1,0 +1,7 @@
+/* font Poppins  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Tai+Heritage+Pro&display=swap');
+
+/* all common styles  */
+.body{
+    font-family: 'Poppins', sans-serif;
+}
