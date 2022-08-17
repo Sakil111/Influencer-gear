@@ -97,6 +97,7 @@ nav{
     grid-template-columns: repeat(7,1fr);
     grid-column-gap: 60px; */
     align-items: center;
+    justify-content: space-between;
     justify-items: center;
     margin: 0 8% 0 4%;
     background: #f9f4f4;
