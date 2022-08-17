@@ -186,7 +186,7 @@ button .fa-brands{
 }
 
 /* Media Queries */
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 600px) {
     .influencer-info, .collections{
         grid-template-columns: repeat(1,1fr);
         justify-items: center;
@@ -219,10 +219,4 @@ button .fa-brands{
     footer{
         width: 100%;
     }
-    /* .collection{
-        padding: 5px; */
-    }
-    /* .about-section , .camera-photo{
-        flex-direction: column;
-
-    } */
+}
