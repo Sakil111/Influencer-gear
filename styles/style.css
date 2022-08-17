@@ -88,13 +88,14 @@ nav{
 
 /* company logs section style */
 .company-logs{
+    display: flex;
     /* border: 5px solid white; */
     /* border: 2px solid #888888; */
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding: 36px;
-    display: grid;
+    /* display: grid;
     grid-template-columns: repeat(7,1fr);
-    grid-column-gap: 60px;
+    grid-column-gap: 60px; */
     align-items: center;
     justify-items: center;
     margin: 0 8% 0 4%;
@@ -183,3 +184,45 @@ button .fa-brands{
     padding-left: 10px;
 
 }
+
+/* Media Queries */
+@media only screen and (max-width: 900px) {
+    .influencer-info, .collections{
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+        align-items: center;
+        margin: 5px;
+        
+            /* grid-column-gap: 133px;
+            margin: 181px 165px 70px 120px; */
+        }
+
+    .camera-photo, .about-section,.collection, .feature-deail,.company-logs, nav, .nav-element ul{
+        flex-direction: column;
+    }
+    .about-heading{
+        text-align: center;
+    }
+    .company-logs img{
+        padding: 5px;
+    }
+    .feature-deail{
+        margin: 5px;
+    }
+    .camera-photo, .about-section{
+        width: 100%;
+        margin-right: 5px;
+    }
+    .camera-photo img, .feature-image img{
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+    }
+    /* .collection{
+        padding: 5px; */
+    }
+    /* .about-section , .camera-photo{
+        flex-direction: column;
+
+    } */
